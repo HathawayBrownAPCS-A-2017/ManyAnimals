@@ -28,12 +28,12 @@ public class AnimalList2
         int n = (int)(Math.random() * NUM_ANIMALS);
         switch (n)
         {
-            case 0: aList.add(new Cow());
-            case 1: aList.add(new Dog());
-            case 2: aList.add(new Fish());
-            case 3: aList.add(new Koala());
-            case 4: aList.add(new Lizard());
-            case 5: aList.add(new Snake());
+            case 0: aList.add(new Cow()); break;
+            case 1: aList.add(new Dog()); break;
+            case 2: aList.add(new Fish()); break;
+            case 3: aList.add(new Koala()); break;
+            case 4: aList.add(new Lizard()); break;
+            case 5: aList.add(new Snake()); break;
         }
         
     }
